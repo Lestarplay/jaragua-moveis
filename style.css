@@ -1,0 +1,24 @@
+body{
+    background-color: white
+}
+
+header{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+a{  
+    text-decoration: none;
+    padding-left: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 90px;
+    font-family: "Pontano Sans", sans-serif;
+}
+img{
+    width: 200px;
+    display: flex;
+    text-align: center;
+}
