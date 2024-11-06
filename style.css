@@ -1,3 +1,6 @@
+*{
+    margin: auto;
+}
 body{
     background-color: white
 }
@@ -11,14 +14,34 @@ header{
 a{  
     text-decoration: none;
     padding-left: 20px;
+    color: antiquewhite;
 }
 h2{
     text-align: center;
     font-size: 90px;
     font-family: "Pontano Sans", sans-serif;
 }
+h3{
+    font-size: medium;
+    display: flex;
+    text-align: center;
+    font-size: 120%;
+    padding-right: 20px;
+}
 img{
-    width: 200px;
+    width: 20%;
     display: flex;
     text-align: center;
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(133, 2, 2, 0.2);
+    transition: 0.3s;
+    width: 710px;
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 220, 220);
+  }
+  .container {
+    padding: 2px 16px;
+  }
